@@ -1,0 +1,38 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 1000000
+Simulation Instructions: 10000000
+Configuration: 1
+Number of CPUs: 1
+LLC sets: 2048
+LLC ways: 16
+Off-chip DRAM Channels: 1 Width: 64-bit Data Rate: 1600 MT/s
+
+CPU 0 runs traces/mcf_158B.trace.gz
+Heartbeat CPU 0 instructions: 1000002 cycles: 496608 heartbeat IPC: 2.01366 cumulative IPC: 2.01366 (Simulation time: 0 hr 0 min 44 sec) 
+
+Warmup complete CPU 0 instructions: 1000002 cycles: 496608 (Simulation time: 0 hr 0 min 44 sec) 
+
+Heartbeat CPU 0 instructions: 2000002 cycles: 15001391 heartbeat IPC: 0.0689428 cumulative IPC: 0.0689428 (Simulation time: 0 hr 1 min 52 sec) 
+Heartbeat CPU 0 instructions: 3000000 cycles: 30131533 heartbeat IPC: 0.0660931 cumulative IPC: 0.0674879 (Simulation time: 0 hr 3 min 0 sec) 
+Heartbeat CPU 0 instructions: 4000000 cycles: 43826941 heartbeat IPC: 0.0730172 cumulative IPC: 0.0692355 (Simulation time: 0 hr 4 min 4 sec) 
+Heartbeat CPU 0 instructions: 5000002 cycles: 55535942 heartbeat IPC: 0.0854046 cumulative IPC: 0.0726753 (Simulation time: 0 hr 5 min 7 sec) 
+Heartbeat CPU 0 instructions: 6000001 cycles: 67639161 heartbeat IPC: 0.0826226 cumulative IPC: 0.0744684 (Simulation time: 0 hr 6 min 7 sec) 
+Heartbeat CPU 0 instructions: 7000000 cycles: 79741164 heartbeat IPC: 0.0826309 cumulative IPC: 0.075715 (Simulation time: 0 hr 7 min 2 sec) 
+Heartbeat CPU 0 instructions: 8000000 cycles: 91959857 heartbeat IPC: 0.0818418 cumulative IPC: 0.0765335 (Simulation time: 0 hr 7 min 40 sec) 
+Heartbeat CPU 0 instructions: 9000000 cycles: 105527644 heartbeat IPC: 0.073704 cumulative IPC: 0.0761679 (Simulation time: 0 hr 8 min 7 sec) 
+Heartbeat CPU 0 instructions: 10000001 cycles: 122353975 heartbeat IPC: 0.0594307 cumulative IPC: 0.0738568 (Simulation time: 0 hr 8 min 23 sec) 
+Heartbeat CPU 0 instructions: 11000000 cycles: 135530039 heartbeat IPC: 0.0758951 cumulative IPC: 0.0740557 (Simulation time: 0 hr 8 min 30 sec) 
+Finished CPU 0 instructions: 10000002 cycles: 135033435 cummulative IPC: 0.0740557 (Simulation time: 0 hr 8 min 30 sec) 
+
+ChampSim completed all CPUs
+
+Region of Interest Statistics
+
+CPU 0 cummulative IPC: 0.0740557 instructions: 10000002 cycles: 135033435
+LLC TOTAL     ACCESS:    1469253  HIT:     747824  MISS:     721429
+LLC LOAD      ACCESS:    1388135  HIT:     670398  MISS:     717737
+LLC RFO       ACCESS:       6449  HIT:       3111  MISS:       3338
+LLC PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+LLC WRITEBACK ACCESS:      74669  HIT:      74315  MISS:        354
